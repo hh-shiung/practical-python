@@ -80,7 +80,7 @@ for variable_name in sequence:
 
 ### Historical Digression
 
-List comprehension come from math (set-builder notation).
+List comprehensions come from math (set-builder notation).
 
 ```code
 a = [ x * x for x in s if x > 0 ] # Python
@@ -215,7 +215,7 @@ For example, this determines the set of unique stock names that appear in `portf
 ```python
 >>> names = { s['name'] for s in portfolio }
 >>> names
-{ 'AA', 'GE', 'IBM', 'MSFT', 'CAT'] }
+{ 'AA', 'GE', 'IBM', 'MSFT', 'CAT' }
 >>>
 ```
 
